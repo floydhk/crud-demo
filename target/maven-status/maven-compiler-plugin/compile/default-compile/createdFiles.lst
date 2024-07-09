@@ -1,0 +1,15 @@
+com\aia\crud\repository\BookRepository.class
+com\aia\crud\builder\BookBuilder.class
+com\aia\crud\service\BookService.class
+com\aia\crud\model\dto\BookDTO$BookDTOBuilder.class
+com\aia\crud\exception\BookNotFoundException.class
+com\aia\crud\controller\BookController.class
+com\aia\crud\utils\BookUtils.class
+com\aia\crud\exception\ControllerExceptionHandler.class
+com\aia\crud\exception\ErrorMessage.class
+com\aia\crud\application\CRUDRestApplication.class
+com\aia\crud\model\domain\Book$BookBuilder.class
+com\aia\crud\config\BookConfig.class
+com\aia\crud\service\impl\BookServiceImpl.class
+com\aia\crud\model\dto\BookDTO.class
+com\aia\crud\model\domain\Book.class
