@@ -69,7 +69,7 @@ spring:
 Use the command line 
 <ol>
 <li>Clone the repository:</li>
-  <code>git clone https://github.com/  dddd</code>
+  <code>git clone https://github.com/floydhk/crud-demo</code>
 <li>Navigate to the folder:</li>
   <code>cd spring-boot-crud-rest</code>
 <li>Run the application:</li>
