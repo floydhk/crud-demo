@@ -197,7 +197,7 @@ Note: the book Id is appended at the end of the endpoint as path variable.
   ![banner](./docs/deleteBookNotFound.JPG)
   
 
-  If we try to look up the deleted book by its id we will get an HTTP 500 status code response indicating the reason of failure.
+  If we try to delete non existing book by its id we will get an HTTP 500 status code response indicating the reason of failure.
 
 ## Unit Test
 To test the code for functionalities , JUnit test is employed, some [controller](./src/test/java/com/aia/crud/controller). To execute the tests, from the project root, run:
