@@ -99,11 +99,11 @@ Use the command line
 </details>
 
 
-  ![createNewBook](./assets/createBookSuccess.JPG)
+  ![createNewBook](./docs/createBookSuccess.JPG)
   
   HTTP 200 status is returned on creating the request resource successfully. The book id of the newly created resource is generated on return. 
 
-  ![createNewBookMissingField](./assets/createBookMissingField.JPG)
+  ![createNewBookMissingField](./docs/createBookMissingField.JPG)
   
   If the required fields are missing in request parameter, an HTTP 500 status is returned with error message contaning the reason of missing field.
 
@@ -130,7 +130,7 @@ Use the command line
 
 
 
-  ![getBookAll](./assets/searchAll.JPG)
+  ![getBookAll](./docs/searchAll.JPG)
 
 
 
@@ -161,10 +161,10 @@ Note: If either author or published state fields are entered in request paramete
 </details>
 
 
-  ![getBookByAuthor](./assets/searchByAuthor.JPG) 
-  ![getBookByPublished](./assets/searchByPublished.JPG)
-  ![getBookByAuthorAndPublished](./assets/searchByPublishedAuthor.JPG)
-  ![getBookNotFound](./assets/searchByNotFound.JPG)
+  ![getBookByAuthor](./docs/searchByAuthor.JPG) 
+  ![getBookByPublished](./docs/searchByPublished.JPG)
+  ![getBookByAuthorAndPublished](./docs/searchByPublishedAuthor.JPG)
+  ![getBookNotFound](./docs/searchByNotFound.JPG)
 
 ##### 4. Delete existing book based on the book Id.
 
@@ -190,11 +190,11 @@ Note: the book Id is appended at the end of the endpoint as path variable.
                                                       |
 </details>
 
-  ![banner](./assets/deleteBook.JPG)
+  ![banner](./docs/deleteBook.JPG)
   
   The book record is successfully deleted as bookId value is returned in response msg.
   
-  ![banner](./assets/deleteBookNotFound.JPG)
+  ![banner](./docs/deleteBookNotFound.JPG)
   
 
   If we try to look up the deleted book by its id we will get an HTTP 500 status code response indicating the reason of failure.
